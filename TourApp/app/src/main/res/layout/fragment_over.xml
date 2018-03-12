@@ -1,0 +1,107 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.andriod.tourapp.over">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp">
+        <ImageView
+            android:id="@+id/laba"
+            android:src="@drawable/hotela"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="8"
+                android:paddingTop="180dp"
+                android:rating="4"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Labadi Beach Hotel" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No 1 La Bypass, Accra"
+            android:drawablePadding="5dp"
+            android:textSize="15sp"
+            android:gravity="bottom"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/ic_place" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+233(0)547 141 662"
+            android:drawablePadding="5dp"
+            android:textSize="15sp"
+            android:gravity="bottom"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/ic_call_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Every day"
+            android:drawablePadding="5dp"
+            android:textSize="15sp"
+            android:gravity="bottom"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/ic_event_note_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="12:00am to 12:00am"
+            android:drawablePadding="5dp"
+            android:textSize="15sp"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            android:drawableLeft="@drawable/ic_time"/>
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="Description" />
+
+       <TextView
+           android:id="@+id/textView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Welcome to Ghana's Premier hotel, resort and business address. The hotel is renowned for its food and the unique spirit of ghanian hospitality. Labadi is located with easy access of both the city and airport. Set amidst tropical landscape gardens. Overlooking one of the most beautiful beaches, labadi beach, is where tourist and the business travelers go to meet and play.
+                                                                                                                    This exclusive hotel provides it's guests with 164 luxury rooms, two bars and restaurants and a variety of different and exciting activities for everyone in the family.           " />
+
+   </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
